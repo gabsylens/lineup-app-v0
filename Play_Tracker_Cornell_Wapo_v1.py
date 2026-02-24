@@ -2,7 +2,11 @@ import streamlit as st
 import pandas as pd
 
 # ---------- Page config + light CSS polish ----------
-st.set_page_config(page_title="Lineup Plays", layout="centered")
+st.set_page_config(
+    page_title="Lineup Plays",
+    layout="centered",
+    initial_sidebar_state="expanded"
+)
 
 st.markdown(
     """
