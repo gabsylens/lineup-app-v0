@@ -4,7 +4,7 @@ import pandas as pd
 st.set_page_config(page_title="Lineup Plays", layout="centered")
 st.title("Lineup → Common Plays")
 
-DATA_FILE = "plays.csv"
+DATA_FILE = "Play_Tracker_Cornell_Wapo.csv"
 TEAM_SIZE_DEFAULT = 6
 
 # ---------- Load data ----------
